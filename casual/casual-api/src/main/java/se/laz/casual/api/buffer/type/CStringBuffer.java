@@ -7,6 +7,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * {@code CasualBuffer} for type {@code CasualBufferType.CSTRING}
+ */
 public class CStringBuffer implements CasualBuffer
 {
     private static final long serialVersionUID = 1L;
@@ -15,6 +18,12 @@ public class CStringBuffer implements CasualBuffer
     {
         this.payload = payload;
     }
+
+    /**
+     * Creates a {@code CStringBuffer}
+     * @param value - the string value
+     * @return a {@code CStringBuffer}
+     */
     public static CStringBuffer of(String value)
     {
         Objects.requireNonNull(value, "value should not be null!");
@@ -26,9 +35,9 @@ public class CStringBuffer implements CasualBuffer
         return new CStringBuffer(value.getBytes());
     }
     /**
-     *
+     * Creates a {@code CStringBuffer}
      * @param payload has to contain one byte[] which has to be a null terminated cstring using the default platform encoding
-     * @return a buffer
+     * @return a {@code CStringBuffer}
      */
     public static CStringBuffer of(final List<byte[]> payload)
     {
