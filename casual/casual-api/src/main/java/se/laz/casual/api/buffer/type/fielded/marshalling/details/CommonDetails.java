@@ -61,7 +61,7 @@ public final class CommonDetails
     {}
 
     /**
-     * Gets the fields annotated with {@code CasualFieldElement}
+     * Gets the fields annotated with {@link CasualFieldElement}
      * @see CasualFieldElement
      * @param c the class
      * @return a list of fields that have the annotation
@@ -74,7 +74,7 @@ public final class CommonDetails
     }
 
     /**
-     * Gets the methods annotated with {@code CasualFieldElement}
+     * Gets the methods annotated with {@link CasualFieldElement}
      * @see CasualFieldElement
      * @param c the class
      * @return a list of methods that have the annotation
@@ -87,7 +87,7 @@ public final class CommonDetails
     }
 
     /**
-     * Gets the parameter info for each annotated, {@code CasualFieldElement},  method of the class
+     * Gets the parameter info for each annotated, {@link CasualFieldElement},  method of the class
      * @see ParameterInfo
      * @param c the class
      * @return a map with {method, parameter info}
@@ -109,7 +109,7 @@ public final class CommonDetails
     }
 
     /**
-     * Gets the parameter info for the method - if annotated with {@code CasualFieldElement}
+     * Gets the parameter info for the method - if annotated with {@link CasualFieldElement}
      * @see ParameterInfo
      * @param m the method
      * @return a list with ParameterInfo

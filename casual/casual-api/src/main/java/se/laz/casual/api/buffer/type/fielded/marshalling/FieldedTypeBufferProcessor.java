@@ -16,7 +16,7 @@ import java.util.Objects;
 
 /**
  * marshall/unmarshall FieldedTypeBuffer
- * methods or fields annotated with {@code @CasualFieldElement} will be handled
+ * methods or fields annotated with {@link CasualFieldElement} will be handled
  * @see CasualFieldElement
  */
 public final class FieldedTypeBufferProcessor
