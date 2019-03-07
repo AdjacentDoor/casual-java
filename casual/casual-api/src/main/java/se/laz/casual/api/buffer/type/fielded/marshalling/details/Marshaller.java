@@ -22,7 +22,7 @@ import java.util.function.Function;
 
 /**
  * A marshaller implementation
- * Marshalls into a {@code FieldedTypeBuffer}
+ * Marshalls into a {@link FieldedTypeBuffer}
  */
 public final class Marshaller
 {

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * {@code CasualBuffer} for type {@code CasualBufferType.CSTRING}
+ * {@link CasualBuffer} for type {@link CasualBufferType#CSTRING}
  */
 public class CStringBuffer implements CasualBuffer
 {
@@ -20,9 +20,9 @@ public class CStringBuffer implements CasualBuffer
     }
 
     /**
-     * Creates a {@code CStringBuffer}
+     * Creates a {@link CStringBuffer}
      * @param value - the string value
-     * @return a {@code CStringBuffer}
+     * @return a {@link CStringBuffer}
      */
     public static CStringBuffer of(String value)
     {
@@ -35,9 +35,9 @@ public class CStringBuffer implements CasualBuffer
         return new CStringBuffer(value.getBytes());
     }
     /**
-     * Creates a {@code CStringBuffer}
+     * Creates a {@link CStringBuffer}
      * @param payload has to contain one byte[] which has to be a null terminated cstring using the default platform encoding
-     * @return a {@code CStringBuffer}
+     * @return a {@link CStringBuffer}
      */
     public static CStringBuffer of(final List<byte[]> payload)
     {

@@ -45,7 +45,7 @@ public final class MessageSelector
     }
 
     /**
-     * Creates a selector only using a {@code String} selector
+     * Creates a selector only using a {@link String} selector
      * @param selector the selector string
      * @return a MessageSelector
      */
@@ -55,7 +55,7 @@ public final class MessageSelector
     }
 
     /**
-     * Creates a selector only using a {@code UUID} selector
+     * Creates a selector only using a {@link UUID} selector
      * @param selectorId the selector id
      * @return a MessageSelector
      */

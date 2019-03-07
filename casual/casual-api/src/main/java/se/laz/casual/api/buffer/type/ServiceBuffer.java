@@ -34,7 +34,7 @@ public final class ServiceBuffer implements CasualBuffer, Serializable
     }
 
     /**
-     * Creates a new {@code ServiceBuffer}
+     * Creates a new {@link ServiceBuffer}
      * Note, since payload can be large we do not copy it - ie ownership is implicitly transferred
      * Be aware
      * @param type the type of the buffer
@@ -53,7 +53,7 @@ public final class ServiceBuffer implements CasualBuffer, Serializable
     }
 
     /**
-     * Creates a new {@code ServiceBuffer} based on any other CasualBuffer
+     * Creates a new {@link ServiceBuffer} based on any other CasualBuffer
      * @param b the buffer
      * @return a new ServiceBuffer
      */

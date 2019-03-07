@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 /**
- * Implementation of {@code FieldedData}
+ * Implementation of {@link FieldedData}
  * @param <T> the type
  */
 public final class FieldedDataImpl<T> implements FieldedData<T>

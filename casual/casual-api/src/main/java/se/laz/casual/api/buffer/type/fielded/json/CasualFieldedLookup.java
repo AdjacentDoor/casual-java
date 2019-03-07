@@ -30,8 +30,7 @@ import java.util.stream.Collectors;
  * Data structure containing the canonical representation
  * of what kind of fielded data is available for use
  * Uses static initialization
- * If the environment variable {@code Constants.CASUAL_FIELD_TABLE} is not set to point to any JSON
- * then the test JSON packaged in the casual-api is used
+ * Set the environment variable {@link Constants#CASUAL_FIELD_TABLE} to point to a json file with your definitions
  * @see Constants
  */
 public final class CasualFieldedLookup

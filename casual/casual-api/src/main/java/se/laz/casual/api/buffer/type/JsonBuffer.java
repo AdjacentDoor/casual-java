@@ -17,8 +17,8 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
- *  {@code CasualBuffer} type that contains JSON
- *   For type {@code CasualBufferType.JSON}
+ *  {@link CasualBuffer} type that contains JSON
+ *   For type {@link CasualBufferType#JSON}
  */
 public class JsonBuffer implements CasualBuffer
 {
@@ -30,7 +30,7 @@ public class JsonBuffer implements CasualBuffer
     }
 
     /**
-     * Creates a {@code JsonBuffer}
+     * Creates a {@link JsonBuffer}
      * @param payload - bytes of a JSON string
      * @return a new JsonBuffer
      */
@@ -41,7 +41,7 @@ public class JsonBuffer implements CasualBuffer
     }
 
     /**
-     * Creates a {@code JsonBuffer}
+     * Creates a {@link JsonBuffer}
      * @param json - a JSON string
      * @return a new JsonBuffer
      */

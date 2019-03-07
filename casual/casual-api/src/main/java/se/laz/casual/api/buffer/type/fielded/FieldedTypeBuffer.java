@@ -23,7 +23,7 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 /**
- * A CasualBuffer of type {@code CasualBufferType.FIELDED}
+ * A CasualBuffer of type {@link CasualBufferType#FIELDED}
  */
 // "Generic wildcard types should not be used in return parameters"
 // This is for framework use only, no user will ever use this code
@@ -345,7 +345,7 @@ public final class FieldedTypeBuffer implements CasualBuffer
 
     /**
      * Write {@code value} by {@code name} to buffer
-     * Note that int is widened to long as int is not a {@code FieldType}
+     * Note that int is widened to long as int is not a {@link FieldType}
      * @throws CasualFieldedLookupException in case the {@code name} is unknown
      * @param name the name
      * @param value the value

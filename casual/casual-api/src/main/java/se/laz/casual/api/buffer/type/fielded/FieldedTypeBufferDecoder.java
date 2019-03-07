@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * The{@code FieldedTypeBuffer} decoder
+ * The{@link FieldedTypeBuffer} decoder
  */
 public final class FieldedTypeBufferDecoder
 {
